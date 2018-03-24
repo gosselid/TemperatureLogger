@@ -5,7 +5,7 @@
 
 #define ECHO_TO_SERIAL   1 // echo data to serial port
 #define tempPin 0                // analog 0
-#define intertemps 1000*60*5-30
+#define intertemps 1000L*60*5-30
 
 RTC_PCF8523 RTC; // define the Real Time Clock object
 
